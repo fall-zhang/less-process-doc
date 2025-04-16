@@ -4,7 +4,7 @@
 
 兼程 **并非开源软件**，这个仓库并 **不包含** less-process 的源代码。
 
-你可以在 dev.less-process.com 上面找到官方文档
+
 
 less-process 是一款离线运行，提供 markdown，todo 等多种内容格式支持的应用
 
