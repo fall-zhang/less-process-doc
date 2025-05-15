@@ -53,8 +53,6 @@ Effective communication refers to the process in which the sender and receiver o
 
 > 如果碰到不能输入的字符，可能需要转义字符 `\` 即 `\<`
 
-
-
 ### 超链接
 
 超链接：https://npm.taobao.org/mirrors/git-for-windows/
@@ -89,14 +87,12 @@ Effective communication refers to the process in which the sender and receiver o
 *   这也是一个列表
 ```
 
-有序列表
+**有序列表**
 
 ```text
 1. 这是一个有序列表
 2. 使用数字加上英文 `.` 表示有序列表 
 ```
-
-
 
 - 列表嵌套引用文本
 

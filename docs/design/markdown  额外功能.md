@@ -3,9 +3,11 @@
 - https://www.appinn.com/markdown
 - https://www.zybuluo.com/mdeditor
 
+这里是 markdown 的基础功能，即 common mark 实现的功能
+
 ### 数学公式
 
- 书写一个质能守恒公式[^LaTeX]
+书写一个质能守恒公式[^LaTeX]
 
 $$E=mc^2$$
 
@@ -62,7 +64,7 @@ Bob-->Alice: I am good thanks!
 
 ### 绘制表格
 
-
+如何绘制一个表格，使用 \table
 
 | 项目   |   价格 | 数量 |
 | ------ | -----: | :--: |
