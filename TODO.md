@@ -4,9 +4,23 @@
 
 无法连接到远程 ollama，起码要连接到 deepseek
 
-把所有的 meme 图也放置到我的网站
+Typora 都有肉吃，tick tick 都能收钱，凭什么我不行
+提示用户，你编辑的文件，都在本地，无论当前是否在线
+卖点？跨平台（win，mac，android），文件即服务
+拥有一个桌面模块，查看我当前的所有文件，并且可以初始化桌面？
+
+同时作为 md 以及 jsonc 的文件编辑打开功能，如果符合格式，则展示对应内容
+
+保存大模型聊天记录到文件夹内
+
+回收站功能
 
 添加删除时的询问，添加删除时移动到回收站或者是直接删除，或者是软件回收站
+
+如何使在 less-process 中删除的内容进入回收站
+
+添加回收站，所有删除的内容都会放置在回收站内
+添加 origin path，作为删除前的路径
 
 文件无法导入到对应的文件夹内，新建文件
 
@@ -16,9 +30,7 @@
 
 添加一个每周，每月，每几个月自动生成的任务
 
-添加回收站，所有删除的内容都会放置在回收站内
-
-试试 setTimeout 之后，引入 JS 文件
+懒加载：试试 setTimeout 之后，引入 JS 文件
 
 捐赠会给一个兑换码，请用户务必保存
 
@@ -41,7 +53,6 @@ https://github.com/Fzoss/MoeChat 好看的聊天界面 UI，添加到 chat 中
 
 启动应用后，添加 Splashscreen 应用启动动画
 
-
 把聊天记录通过 JSON 保存在本地
 
 less-process：todo 项 + AI：本周我完成了以下内容，帮我总结为周报
@@ -56,7 +67,7 @@ next项目部署上去
 
 捐赠金额，捐赠留言，联系方式
 
-less-process-page顶部要可以点击
+less-process-page 顶部要可以点击
 
 添加动画，在下一个页面没加载出来之前，暂时使用上一个页面的内容
 
@@ -78,7 +89,7 @@ https://www.joshuawootonn.com/react-drag-to-select
 
 context，单独放置在 context 文件夹内
 
-配置 eslint 格式化 markdown 以及 json，css 文件
+配置 eslint 格式化 markdown 以及 json, css 文件
 
 如果应用启用了离线模式，不会主动同步任何内容，完全作为本地 app 使用
 
@@ -120,7 +131,6 @@ scroll-behavior:smooth
 左侧除了编辑之外，给出一个详情，列出当前名称，icon 文件类型等内容，可以修改文件名称，文件的图标，文件的其它内容
 
 
-回收站功能
 
 模板功能
 
@@ -146,3 +156,83 @@ scroll-behavior:smooth
 左侧侧边栏可以只剩 icon ，悬浮展示详情，点击直接进入该文件内
 
 点击 icon 选择 icon，点击文件夹展开并且进入，如何收起？再次点击文件夹？更改 icon？在外部更改
+
+给用户一个打算多久后购买的弹窗
+
+3元，让开发者快乐一下
+30元，让开发者痛苦的肝新功能
+
+https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29
+这个按钮用于切换是否联网功能，默认所有功能都是不联网的
+
+还有一个 Typability 开源软件可以参考
+
+turndown，将 html 转换为 markdown
+
+
+https://daotin.netlify.app/tgru9q.html
+Clipborad 相关可以复制粘贴语法
+
+
+需要在 less-process 中使用 clipboard 粘贴板
+dialog 用于打开原生文件夹
+event 和应用后台、所有 tauri 的 windows 进行交互
+fs，文件系统的操作，需要在 scope 中指定可以操作的文件夹
+globalShortcut（暂时用不上），全局快捷键
+http，用于请求，需要在scope中指定可以请求的地址
+读取剪切板，并告知用户注意隐私泄露
+
+
+为 less-process 添加生命周期钩子
+在某个阶段，执行（menu-mounted，app-close）等？
+
+Frimousse 表情包选择器
+
+https://norserium.github.io/react-indiana-drag-scroll/
+为页面添加按住之后，横向滚动功能
+
+可以在官网下载应用
+对应用的下载量进行查看
+
+存在线上资源，提醒用户开启网络功能
+
+todo，拥有 todo 的专属看板，时间轴
+看板，可以转换为 表格，时间轴
+
+历史功能，可能配合上微软的 jsonc-parsor 更好用
+
+@codaworks/react-glow
+追踪高亮功能，添加到 less-process 官网中
+
+sharedb，如果需要实时协作，那可能就需要sharedb
+
+
+再次进入页面时恢复元素的滚动位置
+
+hamburger-react  菜单转换动画 ，未来添加上
+
+imask.js 防止用户输入无效值。
+
+拖拽功能的官方示例
+https://master--5fc05e08a4a65d0021ae0bf2.chromatic.com/?path=/story/presets-sortable-multiple-containers--many-items
+
+react-wrap-balancer 更好的换行工具
+
+设置的配置是按照全局来的，各个文件的顺序，配置是按照对应文件的配置信息获取的
+
+尝试使用分支来进行版本发布，探索这一步骤的自动化？
+
+
+向右拉，可以划出 负一屏，里面添加了周期性工作，可以进行周期性工作的管理以及添加
+
+
+1，提供几套固定模板
+2，根据用户选择类型，生成主旨，根据逻辑提供汇报的结构所需文本
+3，将文本插入模板内，提供数据
+4，表格内容需转译
+
+
+https://linkify.js.org/
+将纯文本中的 URL、邮箱等转换为链接
+
+把目录转换为可以添加多个标签，并且可以通过可视化以及标签进行查看
