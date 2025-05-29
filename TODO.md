@@ -1,85 +1,125 @@
+## 全局
 
+添加回收站，所有删除的内容都会放置在回收站内，
+添加 origin path，作为删除前的路径
+
+启动应用后，添加 Splashscreen 应用启动动画
 
 做类似于 windows 设置页面的动画
-获取 pdf 文件列表，以及文件的详细信息
+
 支持一些常见文件的读取工作
+获取文件列表，以及文件的详细信息
 
-无法连接到远程 ollama，起码要连接到 deepseek
+左侧菜单添加一个在侧边栏打开，（例如可以，左侧显示 todo 右侧显示 markdown）
 
-Typora 都有肉吃，tick tick 都能收钱，凭什么我不行
-提示用户，你编辑的文件，都在本地，无论当前是否在线
-卖点？跨平台（win，mac，android），文件即服务
-拥有一个桌面模块，查看我当前的所有文件，并且可以初始化桌面？
+左侧菜单添加隐藏功能，只显示 icon，并且悬浮展示详情，此时禁止拖拽到子项内，只能最外层拖拽，通过悬浮窗的点击，进入文件内
 
 同时作为 md 以及 jsonc 的文件编辑打开功能，如果符合格式，则展示对应内容
 
-保存大模型聊天记录到文件夹内
+懒加载：试试 setTimeout 之后，引入 JS 文件
 
-回收站功能
+所有功能页面的模板功能
 
+为 less-process 添加生命周期钩子（还没考虑好用途
+在某个阶段，执行（menu-mounted，app-close）等？
+
+如何使在 less-process 中进入回收站
 添加删除时的询问，添加删除时移动到回收站或者是直接删除，或者是软件回收站
 
-如何使在 less-process 中删除的内容进入回收站
+## 桌面图层
 
-添加回收站，所有删除的内容都会放置在回收站内
-添加 origin path，作为删除前的路径
+全局快捷键，globalShortcut（暂时用不上）
 
-文件无法导入到对应的文件夹内，新建文件
+提供顶层输入框
 
-文件夹监听，如果文件变化了，执行一系列操作
+添加桌面图层，查看当前的所有文件，可以对 todo 进行查看，可以win +d 显示桌面时候并且可以初始化桌面？
 
-为 markdown 添加菜单树
+
+## Todo
 
 添加一个每周，每月，每几个月自动生成的任务
 
-懒加载：试试 setTimeout 之后，引入 JS 文件
+https://norserium.github.io/react-indiana-drag-scroll/
+为页面添加按住之后，横向滚动功能
 
-捐赠会给一个兑换码，请用户务必保存
+todo，拥有 todo 的专属看板，时间轴
+看板，可以转换为 表格，时间轴
 
-根据本地算力大小，推荐打模型的选择
+## AI Chat 
 
-https://magicui.design/docs/components/pointer
-用于官网上的特效
+把聊天记录通过 JSON 保存在本地
 
-Gridea，笔记，blog 编辑器，设计的很好看，但我应该不需要
-
-https://github.com/Fzoss/MoeChat 好看的聊天界面 UI，添加到 chat 中
-
+无法连接到远程 ollama，起码要连接到 deepseek
 
 - 笔记分块并嵌入到内部矢量数据库中
 - 相关笔记通过向量相似度自动连接
 - LLM 支持问答对笔记语料库进行RAG
 - 一切都可以进行语义搜索
 
-自定义系统托盘
+## Markdown
 
-启动应用后，添加 Splashscreen 应用启动动画
+- 语言的切换功能
 
-把聊天记录通过 JSON 保存在本地
+添加用于测试的文件，用来测试 markdown 中的解析效果
 
-less-process：todo 项 + AI：本周我完成了以下内容，帮我总结为周报
+- 包括 image
+- 代码块
+  - js、css、html、python
+- 表格
+- list
+- todo list
+- 标题 h1-h6
+- mark 标记
+- strong，强调
 
-添加一个侧边组，可以打开文件（例如，左侧显示 todo 右侧显示 markdown）
-
-隐藏左侧，只显示 icon，并且悬浮展示详情，此时禁止拖拽到子项内，只能最外层拖拽，通过悬浮窗的点击，进入文件内
-
-less-process 翻译全部完善，
-
-next项目部署上去
-
-捐赠金额，捐赠留言，联系方式
+## 官网
 
 less-process-page 顶部要可以点击
 
+可以在官网下载应用
+
+## 后端
+
+track backend，用户认证，错误追踪，用户反馈，这些内容是通用的，可以开源
+
+配置、部署，运维、监控，事务控制，服务发现，弹性伸缩，灰度发布，高并发
+
+restful API 好处，监视很容易，做各种统计分析，控制系统可以很容易做流量编排和调度
+服务调用链追踪
+
+软件的升级
+
+对应用的下载量进行查看
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+文件无法导入到对应的文件夹内，新建文件
+
+context，单独放置在 context 文件夹内
+
+设置中，less-process 添加一个进阶模式，保存 json 数据时会添加换行以及前面追加两个空格
+
+
 添加动画，在下一个页面没加载出来之前，暂时使用上一个页面的内容
 
-参考 mozilla 声明，提供隐私声明https://www.mozilla.org/zh-CN/privacy/firefox/
+参考 mozilla 声明，提供隐私声明 https://www.mozilla.org/zh-CN/privacy/firefox/
 
 https://andreaswilli.github.io/react-verification-input/
 验证码输入组件，可以改为 CDKey 输入组件
-
-
-在应用下方展示总字数
 
 应用白屏时间有点长
 
@@ -89,36 +129,12 @@ https://www.joshuawootonn.com/react-drag-to-select
 
 可以设置统一模板，把便签的功能，做的更通用
 
-context，单独放置在 context 文件夹内
-
-配置 eslint 格式化 markdown 以及 json, css 文件
 
 如果应用启用了离线模式，不会主动同步任何内容，完全作为本地 app 使用
 
 如果有多人远程协作模式，那么任何更新都要以 json 的形式，展示详情（更新的内容，更新人，更新的行）
 
-给 less-process 添加一个进阶模式，json 数据会添加换行以及前面追加两个空格
 
-track backend，用户认证，错误追踪，用户反馈，这些内容是通用的，可以开源
-
-希望这款软件可以被国家购买，相当于面向所有纳税人
-
-成为对全人类有益的应用
-
-中国政府购买，服务于全人类
-
-## 软件的升级
-
-半年进行一次依赖升级，一般在最新版本发布半年之后
-
-
-## 后端
-
-配置、部署，运维、监控，事务控制，服务发现，弹性伸缩，灰度发布，高并发
-
-restful API 好处，监视很容易，做各种统计分析，控制系统可以很容易做流量编排和调度
-服务调用链追踪
-软件的升级
 
 应用面向浏览器
 Browserslist，支持的浏览器
@@ -133,20 +149,10 @@ scroll-behavior:smooth
 左侧除了编辑之外，给出一个详情，列出当前名称，icon 文件类型等内容，可以修改文件名称，文件的图标，文件的其它内容
 
 
-
-模板功能
-
 进程中，A tauri app 是怎么回事，打包后如果还存在，如何删除或者修改
 
 "explorer.fileNesting.enabled": true,
 将相似的文件嵌套在一起
-
-
-1MB，大致等于一本书，256,000字
-1G，等于一千本书，
-5G，等于五千本书
-如果线下模式，用户想用多少用多少
-
 
 100 元内，转换为双倍时长，且当前的所有功能免费，基本存储空间（5G）
 100-500，转换为双倍时长，且未来推出的新功能也全免费，超大存储空间（30G）
@@ -159,47 +165,27 @@ scroll-behavior:smooth
 
 点击 icon 选择 icon，点击文件夹展开并且进入，如何收起？再次点击文件夹？更改 icon？在外部更改
 
-给用户一个打算多久后购买的弹窗
-
-3元，让开发者快乐一下
-30元，让开发者痛苦的肝新功能
+给用户一个打算多久后购买的弹窗，收集这类信息
 
 https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29
 这个按钮用于切换是否联网功能，默认所有功能都是不联网的
 
-还有一个 Typability 开源软件可以参考
-
-turndown，将 html 转换为 markdown
-
-
 https://daotin.netlify.app/tgru9q.html
 Clipborad 相关可以复制粘贴语法
 
-
 需要在 less-process 中使用 clipboard 粘贴板
+
 dialog 用于打开原生文件夹
+
 event 和应用后台、所有 tauri 的 windows 进行交互
-fs，文件系统的操作，需要在 scope 中指定可以操作的文件夹
-globalShortcut（暂时用不上），全局快捷键
+
 http，用于请求，需要在scope中指定可以请求的地址
 读取剪切板，并告知用户注意隐私泄露
 
 
-为 less-process 添加生命周期钩子
-在某个阶段，执行（menu-mounted，app-close）等？
-
-Frimousse 表情包选择器
-
-https://norserium.github.io/react-indiana-drag-scroll/
-为页面添加按住之后，横向滚动功能
-
-可以在官网下载应用
-对应用的下载量进行查看
-
 存在线上资源，提醒用户开启网络功能
 
-todo，拥有 todo 的专属看板，时间轴
-看板，可以转换为 表格，时间轴
+
 
 历史功能，可能配合上微软的 jsonc-parsor 更好用
 
@@ -238,3 +224,7 @@ https://linkify.js.org/
 将纯文本中的 URL、邮箱等转换为链接
 
 把目录转换为可以添加多个标签，并且可以通过可视化以及标签进行查看
+
+## markdown
+
+turndown，将 html 转换为 markdown
