@@ -1,5 +1,6 @@
 ## 全局
 
+- [x] 懒加载
 - [ ] 添加回收站，所有删除的内容都会放置在回收站内
   - [ ] 回收站作为一个列表，可以撤回
   - [ ] 删除后跳转到父文件夹
@@ -11,7 +12,6 @@
 - [ ] 左侧菜单添加一个在侧边栏打开，（例如可以，左侧显示 todo 右侧显示 markdown）
 - [ ] 左侧菜单添加隐藏功能，只显示 icon，并且悬浮展示详情，此时禁止拖拽到子项内，只能最外层拖拽，通过悬浮窗的点击，进入文件内
 - [ ] 同时作为 md 以及 jsonc 的文件编辑打开功能，如果符合格式，则展示对应内容
-- [x] 懒加载
 - [ ] 所有功能页面的模板功能
 - [ ] 为 less-process 添加生命周期钩子（还没考虑好用途
 - [ ] 在某个阶段，执行（menu-mounted，app-close）等？
@@ -32,6 +32,8 @@
 - [ ] 文件上次编辑时间信息的保存
 - [ ] 配置页面中，添加对 markdown 的介绍
 - [ ] 错误捕获
+- [ ] 当前文件不存在，显示无法解析文件
+- [ ] less-process 全局搜索功能
 - [ ] 点击左侧操作后，不应该进入文件内
   - [ ] 后端对错误内容进行保存
   - [ ] 管理端对错误内容进行展示
@@ -79,6 +81,7 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 
 - [ ] 文件导出为 pdf，word 等
 - [ ] 语言的切换功能优化
+- [ ] 再次进入页面时恢复到上次元素的滚动位置
 - [x] 添加用于测试的文件，用来测试 markdown 中的解析效果：image、代码块、js、css、html、python、表格、list、todo、list、标题 h1-h6、mark 标记、strong，强调
 - [ ] 表格
   - [ ] 可以右键删除行，删除列，添加行，添加列
@@ -155,8 +158,6 @@ https://www.joshuawootonn.com/react-drag-to-select
 Browserslist，支持的浏览器
 targets: [ 'chrome >0 and last 2.5 years', 'edge >0 and last 2.5 years', 'safari >0 and last 2.5 years', 'firefox >0 and last 2.5 years', 'and_chr >0 and last 2.5 years', 'and_ff >0 and last 2.5 years', 'ios >0 and last 2.5 years', ]
 
-less-process 全局搜索功能
-搜索的时候，按照 json 格式的语义搜索，还是按照文本格式搜索内容
 
 scroll-behavior:smooth
 顺滑地进行滚动
@@ -210,7 +211,7 @@ http，用于请求，需要在scope中指定可以请求的地址
 sharedb，如果需要实时协作，那可能就需要sharedb
 
 
-再次进入页面时恢复元素的滚动位置
+
 
 hamburger-react  菜单转换动画 ，未来添加上
 
