@@ -40,12 +40,23 @@ less-process 是一款离线运行，提供 markdown，todo 等多种内容格�
 - android 8 以上
 - ios 14 以上
 
-> Chrome 109 is the last version of Chrome that will support Windows 7, Windows 8/8.1
 
 在 Windows 10（2018 年 4 月发布或之后的版本）和 Windows 11 上，WebView2 运行时作为操作系统的一部分进行分发。因为 tauri 依赖于 webview，所以必须更新 windows 到版本
 
-## 支持开发者
+应用当前使用的是 tailwindcss v4，需要以下版本及以上的浏览器
 
+- Safari 16.4 (released March 2023)
+- Chrome 111 (released March 2023)
+- Firefox 128 (released July 2024)
+
+> Chrome 109 is the last version of Chrome that will support Windows 7, Windows 8/8.1
+> 因此不支持 win7
+应用面向浏览器
+Browserslist，支持的浏览器
+targets: \[ 'chrome >0 and last 2.5 years', 'edge >0 and last 2.5 years', 'safari >0 and last 2.5 years', 'firefox >0 and last 2.5 years', 'and\_chr >0 and last 2.5 years', 'and\_ff >0 and last 2.5 years', 'ios >0 and last 2.5 years', ]
+
+## 支持开发者
+s
 3元，让开发者快乐一下
 30元，让开发者痛苦的肝新功能
 

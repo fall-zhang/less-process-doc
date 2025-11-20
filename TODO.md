@@ -3,8 +3,12 @@
 - [x] 懒加载
 - [x] 重构：context，单独放置在 context 文件夹内
 - [ ] 添加回收站，所有删除的内容都会放置在回收站内
+- [ ] 错误进行统一捕捉
   - [ ] 回收站作为一个列表，可以撤回
   - [ ] 删除后跳转到父文件夹
+- [x] 使用 jotai 对全局状态进行重构
+  - [x] 使用 jotai 对文件内容进行重构
+  - [x] 读取文件内容，先触发读取文件，然后设置新的值，最后再触发渲染
 - [ ] 添加 origin path，作为删除前的路径
 - [ ] 启动应用后，添加 Splashscreen 应用启动动画
 - [ ] 做类似于 windows 设置页面的动画
@@ -21,7 +25,7 @@
 - [ ] 可以在新的窗口打开应用文件
 - [ ] 左侧菜单拖拽到新的文件夹内
 - [ ] 全局收集所有报错日志
-- [ ] 点击工作页面，展开和收起工作区中的内容
+- [x] 点击工作页面，展开和收起工作区中的内容
 - [ ] 工作区内有其它格式的文件时，使用系统对应打开方式打开
 - [ ] 展示文件的详细信息
   - [ ] hover 文件夹 400 ms 后
@@ -35,10 +39,12 @@
 - [ ] 错误捕获
 - [ ] 当前文件不存在，显示无法解析文件
 - [ ] less-process 全局搜索功能
-- [ ] 应用白屏时间有点长
+- [ ] 应用白屏时间有点长，要么添加动画，要么减少白屏时间
 - [ ] 点击左侧操作后，不应该进入文件内
-  - [ ] 后端对错误内容进行保存
-  - [ ] 管理端对错误内容进行展示
+- [ ] 读取剪切板，并告知用户注意隐私泄露
+- [ ] 存在线上资源，提醒用户开启网络功能
+- [ ] 添加动画，在下一个页面没加载出来之前，暂时使用上一个页面的内容
+- [ ] sharedb，如果需要实时协作，那可能就需要 sharedb
 
 ## 桌面图标
 
@@ -92,6 +98,7 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 - [ ] 图片，右键，选择定位
 - [ ] 图片，可以更改图片链接
 - [ ] 代码块，可点击复制
+- [x] dialog 用于打开原生文件夹
 
 ## 官网
 
@@ -104,9 +111,9 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 - [ ] 时间默认使用 number 保存
 
 
-设置中，less-process 添加一个进阶模式，保存 json 数据时会添加换行以及前面追加两个空格
+设置中，less-process 添加一个进阶模式，保存 json 数据时会添加换行以及前面追加两个空格，方便 git 进行diff，以及
 
-添加动画，在下一个页面没加载出来之前，暂时使用上一个页面的内容
+
 
 参考 mozilla 声明，提供隐私声明 <https://www.mozilla.org/zh-CN/privacy/firefox/>
 
@@ -120,19 +127,10 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 
 如果有多人远程协作模式，那么任何更新都要以 json 的形式，展示详情（更新的内容，更新人，更新的行）
 
-应用面向浏览器
-Browserslist，支持的浏览器
-targets: \[ 'chrome >0 and last 2.5 years', 'edge >0 and last 2.5 years', 'safari >0 and last 2.5 years', 'firefox >0 and last 2.5 years', 'and\_chr >0 and last 2.5 years', 'and\_ff >0 and last 2.5 years', 'ios >0 and last 2.5 years', ]
-
-scroll-behavior:smooth
-顺滑地进行滚动
 
 左侧除了编辑之外，给出一个详情，列出当前名称，icon 文件类型等内容，可以修改文件名称，文件的图标，文件的其它内容
 
 进程中，A tauri app 是怎么回事，打包后如果还存在，如何删除或者修改
-
-"explorer.fileNesting.enabled": true,
-将相似的文件嵌套在一起
 
 100 元内，转换为双倍时长，且当前的所有功能免费，基本存储空间（5G）
 100-500，转换为双倍时长，且未来推出的新功能也全免费，超大存储空间（30G）
@@ -145,33 +143,21 @@ scroll-behavior:smooth
 
 点击 icon 选择 icon，点击文件夹展开并且进入，如何收起？再次点击文件夹？更改 icon？在外部更改
 
-给用户一个打算多久后购买的弹窗，收集这类信息
+
 
 <https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29>
 这个按钮用于切换是否联网功能，默认所有功能都是不联网的
 
-<https://daotin.netlify.app/tgru9q.html>
-Clipborad 相关可以复制粘贴语法
 
-需要在 less-process 中使用 clipboard 粘贴板
-
-dialog 用于打开原生文件夹
 
 event 和应用后台、所有 tauri 的 windows 进行交互
-
-http，用于请求，需要在scope中指定可以请求的地址
-读取剪切板，并告知用户注意隐私泄露
-
-存在线上资源，提醒用户开启网络功能
 
 历史功能，可能配合上微软的 jsonc-parsor 更好用
 
 @codaworks/react-glow
 追踪高亮功能，添加到 less-process 官网中
 
-sharedb，如果需要实时协作，那可能就需要sharedb
 
-hamburger-react  菜单转换动画 ，未来添加上
 
 imask.js 防止用户输入无效值。
 
@@ -196,6 +182,15 @@ react-wrap-balancer 更好的换行工具
 
 把目录转换为可以添加多个标签，并且可以通过可视化以及标签进行查看
 
-## markdown
+
+## 可能会添加的功能
+
+hamburger-react  菜单转换动画 ，未来可能用得上
+
+### markdown
 
 turndown，将 html 转换为 markdown
+
+需要在 less-process 中使用 clipboard 粘贴板
+
+Clipborad 相关可以复制粘贴语法 <https://daotin.netlify.app/tgru9q.html>
