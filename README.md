@@ -56,7 +56,7 @@ Browserslist，支持的浏览器
 targets: \[ 'chrome >0 and last 2.5 years', 'edge >0 and last 2.5 years', 'safari >0 and last 2.5 years', 'firefox >0 and last 2.5 years', 'and\_chr >0 and last 2.5 years', 'and\_ff >0 and last 2.5 years', 'ios >0 and last 2.5 years', ]
 
 ## 支持开发者
-s
+
 3元，让开发者快乐一下
 30元，让开发者痛苦的肝新功能
 
