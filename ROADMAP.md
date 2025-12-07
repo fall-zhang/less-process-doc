@@ -1,4 +1,5 @@
-Create by **fall** on 06 Aug 2025<br/>
+Create by **fall** on 06 Aug 2025  
+
 Recently revised in 06 Aug 2025
 
 ## 应用线路图
@@ -64,4 +65,4 @@ Recently revised in 06 Aug 2025
 - [ ] 应用自动进行每周汇总
 
 使用 AI 生成一个类似于这样的介绍视频
-https://www.bilibili.com/video/BV1Tw5SzKEpi
+[https://www.bilibili.com/video/BV1Tw5SzKEpi](https://www.bilibili.com/video/BV1Tw5SzKEpi)

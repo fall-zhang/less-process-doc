@@ -1,5 +1,5 @@
-Create by **fall** on 25 Aug 2025
-Recently revised in 25 Sep 2025
+> Create by **fall** on 25 Aug 2025
+> Recently revised in 25 Sep 2025
 
 ## Timeline
 
@@ -93,8 +93,8 @@ Recently revised in 25 Sep 2025
 - [ ] 完善 todo 配置的保存和读取
   - [ ] markdown 的 table 删除不方便，可以使用右键删除
 
-
 ## 其它时间
 
 - [ ] `-` 在保存后会被替换为 `*` 并且多个无序列表中间会默认添加行进行分割
+
 可以做个噱头，一毛钱的礼物，一百块的特效

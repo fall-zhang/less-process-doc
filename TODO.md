@@ -62,10 +62,9 @@
   - [ ] 不同工作区默认不同的系列，icon，根据动物，蔬菜水果，进行分类，自动从中获取一个
 - [ ] 添加动画，在下一个页面没加载出来之前，暂时使用上一个页面的内容
 - [ ] sharedb，如果需要实时协作，那可能就需要 sharedb
-- [ ] Clipborad 相关可以复制粘贴语法 <https://daotin.netlify.app/tgru9q.html>
+- [ ] Clipborad 相关可以复制粘贴语法 [https://daotin.netlify.app/tgru9q.html](https://daotin.netlify.app/tgru9q.html)
   - [ ] 如果有多人远程协作模式，那么任何更新都要以 json 的形式，展示详情（更新的内容，更新人，更新的行）
 - [ ] 设置中添加一个进阶模式，保存 json 数据时会添加换行以及前面追加两个空格，方便 git 进行diff，以及
-
 
 ## 桌面图标
 
@@ -88,12 +87,13 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 - [ ] 左侧添加一个周期待办事项
 - [ ] 添加 todo 的详情视图，每个 todo 对应一个详情
 - [ ] 为了减小 todo 文件的大小，属性为可选
-- [ ] 为页面添加按住之后，横向滚动功能 <https://norserium.github.io/react-indiana-drag-scroll/>
+- [ ] 为页面添加按住之后，横向滚动功能 [https://norserium.github.io/react-indiana-drag-scroll/](https://norserium.github.io/react-indiana-drag-scroll/)
 - [ ] todo，拥有 todo 的专属看板，时间轴
 - [ ] 看板，可以转换为 表格，时间轴
 - [ ] 输入 # 后可在后面添加标签
 - [ ] 可以设置统一模板，把便签的功能，做的更通用
-- 框选功能，<https://www.joshuawootonn.com/react-drag-to-select>拖拽选择框进行选择
+
+- 框选功能，[https://www.joshuawootonn.com/react-drag-to-select](https://www.joshuawootonn.com/react-drag-to-select)拖拽选择框进行选择
 
 每月对所做的内容进行总结
 
@@ -126,8 +126,7 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 ## 官网
 
 - [ ] less-process-page 顶部要可以点击
-- [ ] 参考 mozilla 声明，提供隐私声明 <https://www.mozilla.org/zh-CN/privacy/firefox/>
-
+- [ ] 参考 mozilla 声明，提供隐私声明 [https://www.mozilla.org/zh-CN/privacy/firefox/](https://www.mozilla.org/zh-CN/privacy/firefox/)
 
 ## 看板
 
@@ -143,9 +142,9 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 
 hamburger-react 菜单转换动画 ，未来可能用得上
 
-<https://linkify.js.org/> 将纯文本中的 URL、邮箱等转换为链接
+[https://linkify.js.org/](https://linkify.js.org/) 将纯文本中的 URL、邮箱等转换为链接
 
-<https://andreaswilli.github.io/react-verification-input/>
+[https://andreaswilli.github.io/react-verification-input/](https://andreaswilli.github.io/react-verification-input/)
 验证码输入组件，可以改为 CDKey 输入组件
 
 imask.js 防止用户输入无效值。
@@ -155,5 +154,5 @@ imask.js 防止用户输入无效值。
 
 react-wrap-balancer 更好的换行工具
 
-<https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29>
+[https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29](https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29)
 这个按钮用于切换是否联网功能，默认所有功能都是不联网的
