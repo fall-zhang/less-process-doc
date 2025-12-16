@@ -15,7 +15,7 @@ less-process 是一款离线运行，提供 markdown，todo 等多种内容格�
 
 ## 使用的技术栈
 
-> [查看更详细的技术栈](./docs/design/参考资料.md)
+> [查看更详细的技术栈](./docs/参考资料.md)
 
 - tauri（打包应用，提供本地文件操作 API）
 - vite（前端开发、打包工具）
@@ -72,3 +72,6 @@ less-process 是一款离线运行，提供 markdown，todo 等多种内容格�
 - ROADMAP 宏观上需要实现的内容
 - TODO 所有待办的内容
 - TIMELINE 按照时间顺序梳理需要做的内容
+
+- [ ] 时间自由是财富自由
+- [ ] 被动收入超过主动收入
