@@ -23,7 +23,7 @@ Recently revised in 06 Aug 2025
   - [x] todo 完成项的隐藏功能
 - [ ] 实现 markdown 功能
   - [x] markdown 的快速创建表格等复杂内容
-  - [ ] markdown 的快捷键
+  - [x] markdown 的快捷键
   - [ ] markdown 的大纲和快捷跳转
 - [ ] 完整的 i18n 支持
   - [ ] 多语言支持，排名前五的语言（汉语，英语，日本语，葡萄牙语，俄语）

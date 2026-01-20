@@ -126,6 +126,7 @@ Todo 要和 board 做区分，todo，可以更改布局为：左 list|右详情
 
 - [x] 添加用于测试的文件，用来测试 markdown 中的解析效果：image、代码块、js、css、html、python、表格、list、todo、list、标题 h1-h6、mark 标记、strong，强调
 - [x] dialog 用于打开原生文件夹
+- [ ] 行内编辑实现 `` ** 等字符的显示
 - [ ] 删除图片功能有了，如何添加图片呢
 - [ ] 添加 selection menu 功能
 - [ ] 文件导出为 pdf，word 等
