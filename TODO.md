@@ -160,15 +160,15 @@ hamburger-react 菜单转换动画 ，未来可能用得上
 
 [https://linkify.js.org/](https://linkify.js.org/) 将纯文本中的 URL、邮箱等转换为链接
 
-[https://andreaswilli.github.io/react-verification-input/](https://andreaswilli.github.io/react-verification-input/)
+[https://andreaswilli.github.io/react-verification-input/](https://andreaswilli.github.io/react-verification-input/)  
 验证码输入组件，可以改为 CDKey 输入组件
 
 imask.js 防止用户输入无效值。
 
-@codaworks/react-glow
+@codaworks/react-glow  
 追踪高亮功能，添加到 less-process 官网中
 
 react-wrap-balancer 更好的换行工具
 
-[https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29](https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29)
+[https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29](https://uiverse.io/JaydipPrajapati1910/brave-rattlesnake-29)  
 这个按钮用于切换是否联网功能，默认所有功能都是不联网的
