@@ -21,14 +21,18 @@ Recently revised in 06 Aug 2025
   - [x] todo 单个项目的重要程度选择
   - [x] todo 的四象限切换功能
   - [x] todo 完成项的隐藏功能
-- [ ] 实现 markdown 功能
+- [x] 实现 markdown 功能
   - [x] markdown 的快速创建表格等复杂内容
   - [x] markdown 的快捷键
-  - [ ] markdown 的大纲和快捷跳转
+  - [x] markdown 的大纲和快捷跳转
+  - [ ] markdown 内容的检索和替换
+  - [ ] markdown 详细信息显示
+  - [ ] markdown 优化展示样式
 - [ ] 完整的 i18n 支持
   - [ ] 多语言支持，排名前五的语言（汉语，英语，日本语，葡萄牙语，俄语）
   - [ ] 之后最多再扩展（韩语，德语，法语）这些语言
 - [ ] 底部添加信息栏
+  - [ ] markdown 底部添加信息栏，展示当前字数，对一个文件的大小进行限制吧
 - [ ] 本地，或者远程大模型对话功能
   - [ ] 检测和安装本地模型，或者远程模型
 - [ ] 工作区文件中存储以下内容：icon，文件的树状图
@@ -36,6 +40,7 @@ Recently revised in 06 Aug 2025
 - [ ] 文件内容搜索功能
 - [ ] 工作区的切换
 - [ ] 工作区回收站功能
+- [ ] 应用可以自动进行升级
 - [ ] 应用问题自动收集 Sentry
 
 ### stage 2
@@ -56,7 +61,7 @@ Recently revised in 06 Aug 2025
 - [ ] 保存 history，可以对历史进行指定内容撤回
 - [ ] 监听其它文件对于文件的修改，然后更新文件内容
 - [ ] 实现流程图，思维导图编辑
-- [ ] 跨平台 react-native
+- [ ] 跨平台 react-native ? tauri ?
 
 ### stage 3
 
@@ -64,5 +69,5 @@ Recently revised in 06 Aug 2025
 
 - [ ] 应用自动进行每周汇总
 
-使用 AI 生成一个类似于这样的介绍视频
+使用 AI 生成一个类似于这样的介绍视频  
 [https://www.bilibili.com/video/BV1Tw5SzKEpi](https://www.bilibili.com/video/BV1Tw5SzKEpi)
