@@ -6,7 +6,7 @@ Recently revised in 06 Aug 2025
 
 应用的未来规划，将要走到哪一步
 
-### stage 1
+### stage 1d
 
 工具化，作为一个完整的工具，实现工具应有的功能
 
@@ -25,7 +25,7 @@ Recently revised in 06 Aug 2025
   - [x] markdown 的快速创建表格等复杂内容
   - [x] markdown 的快捷键
   - [x] markdown 的大纲和快捷跳转
-  - [ ] markdown 内容的检索和替换
+  - [x] markdown 内容的检索和替换 ctrl + f
   - [ ] markdown 详细信息显示
   - [ ] markdown 优化展示样式
 - [ ] 完整的 i18n 支持
