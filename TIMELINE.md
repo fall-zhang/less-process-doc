@@ -9,7 +9,11 @@
 
 - [x] 左侧菜单可以进行拖拽
 - [ ] 为应用添加签名
+- [ ] Markdown 的 code block 在 input 时，可以通过上下按键去选择指定的语言
+
+  [https://ui.shadcn.com/docs/components/radix/combobox#input-group](https://ui.shadcn.com/docs/components/radix/combobox#input-group)
 - [ ] 更新应用的 i18n 语言
+- [ ] react-hotkeys-hook 进行键盘事件的监听
   - [ ] 配置页面的语言
   - [ ] 一些提示，比如 feedback
   - [ ] 404 页面 
@@ -18,8 +22,8 @@
 - [ ] 应用的查询功能，可以查找当前的应用的所有内容
 - [ ] 应用可以自动进行升级
 - [ ] 使用 tanstack route 的路由切换来代替 jotai 的数据传输
-  - [ ] 一个路由对应一个文件 进入路由 -> 获取文件 -> 解析文件
-  - [ ] 获取文件 -> 进入路由 -> 解析文件
+  - [ ] 一个路由对应一个文件 进入路由 -&gt; 获取文件 -&gt; 解析文件
+  - [ ] 获取文件 -&gt; 进入路由 -&gt; 解析文件
   - [ ] useNavigatePath 通过传入文件，来进入对应文件的路由
 - [ ] 番茄时钟
 - [ ] 将 timeline，时间线工具推出

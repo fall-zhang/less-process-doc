@@ -1,7 +1,7 @@
 文章内容部分引用自
 
-- https://www.appinn.com/markdown
-- https://www.zybuluo.com/mdeditor
+- [https://www.appinn.com/markdown](https://www.appinn.com/markdown)
+- [https://www.zybuluo.com/mdeditor](https://www.zybuluo.com/mdeditor)
 
 ### 标题
 
@@ -55,7 +55,7 @@ Effective communication refers to the process in which the sender and receiver o
 
 ### 超链接
 
-超链接：https://npm.taobao.org/mirrors/git-for-windows/
+超链接：[https://npm.taobao.org/mirrors/git-for-windows/](https://npm.taobao.org/mirrors/git-for-windows/)
 
 ### 文本变体
 
@@ -95,12 +95,9 @@ Effective communication refers to the process in which the sender and receiver o
 ```
 
 - 列表嵌套引用文本
-
 - 这是一个列表
 - > 列表嵌套引用文本
-
 - 这是最外层列表
-
   - 这是列表嵌套第二层
     - 列表嵌套第三层
 
@@ -126,13 +123,13 @@ Effective communication refers to the process in which the sender and receiver o
 
 使用以下方式来创建代码块
 
-````text
+```text
 ```js
 let apple = 2
 ```
 
 `let apple = 3`
-````
+```
 
 以下内容就是是代码块
 
@@ -299,6 +296,7 @@ fn make_copy(num: u32) {
 相关语言：sh、powershell、cmd
 
 ```
+
 ```
 
 ### C
@@ -314,12 +312,4 @@ fn make_copy(num: u32) {
 ### nginx
 
 ### XML
-
-
-
-
-
-
-
-
 

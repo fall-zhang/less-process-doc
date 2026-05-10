@@ -1,7 +1,7 @@
 文章内容部分引用自
 
-- https://www.appinn.com/markdown
-- https://www.zybuluo.com/mdeditor
+- [https://www.appinn.com/markdown](https://www.appinn.com/markdown)
+- [https://www.zybuluo.com/mdeditor](https://www.zybuluo.com/mdeditor)
 
 这里是 markdown 的基础功能，即 common mark 实现的功能
 
@@ -66,11 +66,13 @@ Bob-->Alice: I am good thanks!
 
 如何绘制一个表格，使用 \table
 
-| 项目   |   价格 | 数量 |
-| ------ | -----: | :--: |
-| 计算机 | \$1600 |  5   |
-| 手机   |   \$12 |  12  |
-| 管线   |    \$1 | 234  |
+
+| 项目  | 价格   | 数量  |
+| --- | ----: | :---: |
+| 计算机 | 1600 | 5   |
+| 手机  | 12   | 12  |
+| 管线  | 1    | 234 |
+
 
 ## 工具的功能
 
@@ -115,3 +117,4 @@ Bob-->Alice: I am good thanks!
 
 
 
+&nbsp;
