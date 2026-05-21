@@ -1,13 +1,21 @@
-> Create by **fall** on 25 Aug 2025  
+> Create by **fall** on 25 Aug 2025 
+>
 > Recently revised in 29 Jan 2025
 
 ## Timeline
 
 时间线，在哪些时间做了哪些功能，经常查看放止偷懒
 
-## 2026 Apr
+## 2026 May
 
-- [x] 左侧菜单可以进行拖拽
+- [x] 优化 404 页面
+- [x] 替换 &amp;nbsp; 为空行 
+- [x] 更新白板的 i18n
+- [x] markdown 可以解析 meta 源文件
+- [ ] 双击 markdown 文件，可以直接进入文件编辑
+- [ ] [https://www.eslint-react.xyz/docs/faq](https://www.eslint-react.xyz/docs/faq) react 使用新的 eslint 插件
+- [ ] 使用 rust 统一获取文件夹中的内容，返回给前端
+- [ ] 删除文件，默认放置到回收站，如果无法放到回收站，提醒用户是否彻底删除
 - [ ] 为应用添加签名
 - [ ] Markdown 的 code block 在 input 时，可以通过上下按键去选择指定的语言
 
@@ -40,6 +48,13 @@
   - [ ] ctrl + alt 鼠标左键可以对链接进行点击，并且进入该链接
   - [ ] hover link 的时候，展示编辑相关内容
   - [ ] markdown 的 table 删除不方便，可以使用右键删除
+
+## 2026 Apr
+
+- [x] 左侧菜单可以进行拖拽
+- [x] 左侧面板手动折叠时，不会因为宽度变动展开
+- [x] 修复 markdown table-of-content 目录，文字不会溢出
+- [x] 优化 markdown checkbox 目录，文字不会溢出
 
 ## 2026 Mar
 
