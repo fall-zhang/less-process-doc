@@ -1,44 +1,53 @@
 > Create by **fall** on 25 Aug 2025 
->
 > Recently revised in 29 Jan 2025
 
 ## Timeline
 
 时间线，在哪些时间做了哪些功能，经常查看放止偷懒
 
-## 2026 May
+## 2026 Jun
 
-- [x] 优化 404 页面
-- [x] 替换 &amp;nbsp; 为空行 
-- [x] 更新白板的 i18n
-- [x] markdown 可以解析 meta 源文件
-- [ ] 双击 markdown 文件，可以直接进入文件编辑
-- [ ] [https://www.eslint-react.xyz/docs/faq](https://www.eslint-react.xyz/docs/faq) react 使用新的 eslint 插件
+- [ ] markdown 相关内容
+  - [ ] markdown slash menu 右侧显示对应的英文，以防用户不知道怎么出来的结果
+  - [ ] 缩小 todo task 的 checkbox 大小
+  - [ ] 用户 ctrl + v 后，紧接着按 ctrl + z，告知用户，可以 ctrl + shift + v 粘贴纯文本
+  - [ ] markdown 缺少点击 link 可以在当前页面或者其他路由进行跳转的逻辑
+  - [ ] 如果当前 markdown 解析失败，使用 text 文本方式打开 markdown 文件
+  - [ ] 更新，优化 markdown 中的 checkbox 样式
+  - [ ] 根据新闻类网站每行的字数，**控制每行字数**
+  - [ ] 拖拽到文件夹内，对文件、文件夹进行移动
+  - [ ] Markdown 的 code block 在 input 时，可以通过上下按键去选择指定的语言
+  - [ ] 添加上下左右可以切换菜单中，当前选中的文件
+  - [ ] 可以使用上下按键来选择语言，[https://ui.shadcn.com/docs/components/radix/combobox](https://ui.shadcn.com/docs/components/radix/combobox)
+- [ ] 添加菜单，可以进行源文件查看（）仅适用于文档型文件
+- [ ] 左侧菜单功能
+- [ ] 当在左侧菜单正在筛选时，禁用拖拽功能
+- [ ] 拖拽后，如果目标存在一个相同文件名称的文件，则禁止拖拽
+- [ ] 可查看文件大小
+- [ ] 密集视图，以及竖向排列视图可以进行切换
+- [ ] todo 看板现在要去支持左侧待办，右侧详情
+- [ ] 本地双击 markdown 文件，可以直接进入文件编辑
+- [ ] 本地新建文件夹，文件夹添加内容，再次加载时，只会加载文件夹
+- [ ] 验证左侧菜单的功能
+  - [ ] 新增，编辑文件
+  - [ ] 文件夹着色
+  - [ ] 获取文件路径
+- [ ] 添加文件可以进行排序
+- [ ] 优化拖拽功能
+- [ ] 优化文件夹信息展示页面
 - [ ] 使用 rust 统一获取文件夹中的内容，返回给前端
 - [ ] 删除文件，默认放置到回收站，如果无法放到回收站，提醒用户是否彻底删除
 - [ ] 为应用添加签名
-- [ ] Markdown 的 code block 在 input 时，可以通过上下按键去选择指定的语言
-
-  [https://ui.shadcn.com/docs/components/radix/combobox#input-group](https://ui.shadcn.com/docs/components/radix/combobox#input-group)
 - [ ] 更新应用的 i18n 语言
 - [ ] react-hotkeys-hook 进行键盘事件的监听
   - [ ] 配置页面的语言
   - [ ] 一些提示，比如 feedback
   - [ ] 404 页面 
 - [ ] 应用首次加载时，首页并不美好，应当先进入介绍 README 页面
-- [ ] 如果当前 markdown 解析失败，使用 text 文本方式打开 markdown 文件
 - [ ] 应用的查询功能，可以查找当前的应用的所有内容
 - [ ] 应用可以自动进行升级
-- [ ] 使用 tanstack route 的路由切换来代替 jotai 的数据传输
-  - [ ] 一个路由对应一个文件 进入路由 -&gt; 获取文件 -&gt; 解析文件
-  - [ ] 获取文件 -&gt; 进入路由 -&gt; 解析文件
-  - [ ] useNavigatePath 通过传入文件，来进入对应文件的路由
 - [ ] 番茄时钟
-- [ ] 将 timeline，时间线工具推出
-- [ ] 更新，优化 markdown 中的 checkbox 样式
-- [ ] 根据新闻类网站每行的字数，**控制每行字数**
-  - [ ] 拖拽到文件夹内，对文件、文件夹进行移动
-  - [ ] 添加上下左右可以切换菜单中，当前选中的文件
+- [ ] 将 timeline，时间线工具推出，应该和 todo 格式兼容
 - [ ] 配置功能的新增
 - [ ] 完善 todo
   - [ ] 配置的保存和读取
@@ -48,6 +57,18 @@
   - [ ] ctrl + alt 鼠标左键可以对链接进行点击，并且进入该链接
   - [ ] hover link 的时候，展示编辑相关内容
   - [ ] markdown 的 table 删除不方便，可以使用右键删除
+
+## 2026 May
+
+- [x] 优化 404 页面
+- [x] 替换 &nbsp; 为空行 
+- [x] 更新白板的 i18n
+- [x] markdown 可以解析 meta 源文件
+- [x] 使用 tanstack route 的路由切换来代替 jotai 的数据传输
+  - [x] 一个路由对应一个文件 进入路由 -> 获取文件 -> 解析文件
+  - [x] 获取文件 -> 进入路由 -> 解析文件
+  - [x] useNavigatePath 通过传入文件，来进入对应文件的路由
+- [x] [https://www.eslint-react.xyz/docs/faq](https://www.eslint-react.xyz/docs/faq) react 使用新的 eslint 插件
 
 ## 2026 Apr
 
