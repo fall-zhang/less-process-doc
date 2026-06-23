@@ -38,8 +38,8 @@ Recently revised in 06 Aug 2025
 - [ ] 工作区文件中存储以下内容：icon，文件的树状图
 - [ ] 同步 github 上的代码等功能
 - [ ] 文件内容搜索功能
-- [ ] ESC 可以退出 markdown 的编辑
 - [x] 工作区的切换
+- [ ] 应用重构，使用 hooks 代替两个 tauriFileSystem tauriWorkspaceSystem
 - [ ] 文件删除后，放置到回收站内
 - [ ] 应用可以自动进行升级
 - [ ] 应用问题自动收集 Sentry

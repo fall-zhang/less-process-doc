@@ -2,14 +2,172 @@
   "version": "1.0",
   "data": [
     {
-      "fileName": "2202020",
-      "fileType": "whiteboard",
-      "filePath": "/2202020.json",
-      "fileSuffix": "json",
+      "fileName": "test",
+      "fileType": "folder",
+      "filePath": "/test",
+      "fileSuffix": "",
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1778400705035,
-      "createTime": 1776269426482
+      "lastModifyTime": "2025-09-14 13:59:00",
+      "createTime": "2025-09-14 13:59:00",
+      "children": [
+        {
+          "fileName": "列表测试",
+          "fileType": "markdown",
+          "filePath": "/test/列表测试.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1777125694059,
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "大文件场景",
+          "fileType": "markdown",
+          "filePath": "/test/大文件场景.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1778251353709,
+          "createTime": 1776349048636
+        },
+        {
+          "fileName": "媒体内容",
+          "fileType": "markdown",
+          "filePath": "/test/媒体内容.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1776784670106,
+          "createTime": 1776784670106
+        },
+        {
+          "fileName": "长文本",
+          "fileType": "markdown",
+          "filePath": "/test/长文本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1777125195659,
+          "createTime": 1776784670106
+        },
+        {
+          "fileName": "默认文本",
+          "fileType": "markdown",
+          "filePath": "/test/默认文本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780728853439,
+          "createTime": 1776784670106
+        },
+        {
+          "fileName": "ability",
+          "fileType": "folder",
+          "filePath": "/test/ability",
+          "fileSuffix": "",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780707017920,
+          "createTime": 1780707017920,
+          "children": [
+            {
+              "fileName": "base",
+              "fileType": "markdown",
+              "filePath": "/test/ability/base.md",
+              "fileSuffix": "md",
+              "fileSize": 2014,
+              "fileSizeReadable": "1.9k",
+              "lastModifyTime": 1780714364801,
+              "createTime": 1780714364801
+            }
+          ]
+        }
+      ],
+      "isFolderOpen": false
+    },
+    {
+      "fileName": "docs",
+      "fileType": "folder",
+      "filePath": "/docs",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1778598066985,
+      "createTime": 1778598066985,
+      "children": [
+        {
+          "fileName": "202020",
+          "fileType": "unknown",
+          "filePath": "/docs/202020.json",
+          "fileSuffix": "json",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1778598561985,
+          "createTime": 1778598561985
+        },
+        {
+          "fileName": "为什么使用markdown",
+          "fileType": "markdown",
+          "filePath": "/docs/为什么使用markdown.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780066503784,
+          "createTime": 1778598561985
+        },
+        {
+          "fileName": "参考内容",
+          "fileType": "markdown",
+          "filePath": "/docs/参考内容.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1778598561985,
+          "createTime": 1778598561985
+        },
+        {
+          "fileName": "参考资料",
+          "fileType": "markdown",
+          "filePath": "/docs/参考资料.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1778998826166,
+          "createTime": 1778598561985
+        },
+        {
+          "fileName": "如何迁移",
+          "fileType": "markdown",
+          "filePath": "/docs/如何迁移.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1778598561985,
+          "createTime": 1778598561985
+        },
+        {
+          "fileName": "快捷键参考",
+          "fileType": "markdown",
+          "filePath": "/docs/快捷键参考.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1778598561985,
+          "createTime": 1778598561985
+        },
+        {
+          "fileName": "编写规范格式指引",
+          "fileType": "markdown",
+          "filePath": "/docs/编写规范格式指引.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1778598561985,
+          "createTime": 1778598561985
+        }
+      ],
+      "isFolderOpen": false
     },
     {
       "fileName": "backend",
@@ -42,7 +200,142 @@
           "createTime": "2025-09-14 13:59:00"
         }
       ],
-      "fileScheme": "red"
+      "fileScheme": "red",
+      "isFolderOpen": false
+    },
+    {
+      "fileName": "dnd-test",
+      "fileType": "folder",
+      "filePath": "/dnd-test",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1780707017920,
+      "createTime": 1780707017920,
+      "children": [
+        {
+          "fileName": "docs8989",
+          "fileType": "folder",
+          "filePath": "/dnd-test/docs8989",
+          "fileSuffix": "",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        }
+      ]
+    },
+    {
+      "fileName": "dnd-tree-test",
+      "fileType": "folder",
+      "filePath": "/dnd-tree-test",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1780707017920,
+      "createTime": 1780707017920,
+      "children": [
+        {
+          "fileName": "提示词 - 副本 (14) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (14) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (16) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (16) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (17) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (17) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (18) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (18) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (19) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (19) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (20) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (20) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (21) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (21) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (7) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (7) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (8) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (8) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780714364801,
+          "createTime": 1780714364801
+        },
+        {
+          "fileName": "提示词 - 副本 (9) - 副本",
+          "fileType": "markdown",
+          "filePath": "/dnd-tree-test/提示词 - 副本 (9) - 副本.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780719626810,
+          "createTime": 1780714364801
+        }
+      ]
     },
     {
       "fileName": "blog",
@@ -51,7 +344,7 @@
       "fileSuffix": "",
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
-      "lastModifyTime": "2024-01-01 12:00:00",
+      "lastModifyTime": 1780707028466,
       "createTime": "2024-01-01 12:00:00",
       "children": [
         {
@@ -91,18 +384,11 @@
               "fileSuffix": "md",
               "fileSize": 2014,
               "fileSizeReadable": "1.9k",
-              "lastModifyTime": "2024-01-01 12:00:00",
+              "lastModifyTime": 1779983544187,
               "createTime": "2024-01-01 12:00:00"
             }
-          ]
-        },
-        {
-          "fileName": "未命名文件夹",
-          "filePath": "/blog/未命名文件夹",
-          "fileType": "folder",
-          "fileSuffix": "",
-          "children": [],
-          "lastModifyTime": "2026-03-14 12:39:06"
+          ],
+          "isFolderOpen": false
         },
         {
           "fileName": "迁移",
@@ -113,8 +399,42 @@
           "fileSizeReadable": "1.9k",
           "lastModifyTime": 1775403414390,
           "createTime": "2024-01-01 12:00:00"
+        },
+        {
+          "fileName": "markdown",
+          "fileType": "folder",
+          "filePath": "/blog/markdown",
+          "fileSuffix": "",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1780707017920,
+          "createTime": 1780707017920,
+          "children": [
+            {
+              "fileName": "基础功能",
+              "fileType": "markdown",
+              "filePath": "/blog/markdown/基础功能.md",
+              "fileSuffix": "md",
+              "fileSize": 2014,
+              "fileSizeReadable": "1.9k",
+              "lastModifyTime": 1780714364801,
+              "createTime": 1780714364801
+            },
+            {
+              "fileName": "额外功能",
+              "fileType": "markdown",
+              "filePath": "/blog/markdown/额外功能.md",
+              "fileSuffix": "md",
+              "fileSize": 2014,
+              "fileSizeReadable": "1.9k",
+              "lastModifyTime": 1780714364801,
+              "createTime": 1780714364801
+            }
+          ]
         }
-      ]
+      ],
+      "isFolderOpen": false,
+      "fileScheme": "green"
     },
     {
       "fileName": "CHANGELOG",
@@ -123,204 +443,8 @@
       "fileSuffix": "md",
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1778383270986,
-      "createTime": "2024-01-01 12:00:00"
-    },
-    {
-      "fileName": "docs8989",
-      "fileType": "folder",
-      "filePath": "/docs8989",
-      "fileSuffix": "",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1778403913570,
-      "createTime": "2024-01-01 12:00:00",
-      "children": [
-        {
-          "fileName": "202020",
-          "fileType": "unknown",
-          "filePath": "/docs8989/202020.json",
-          "fileSuffix": "json",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778403043329,
-          "createTime": 1778403043329
-        },
-        {
-          "fileName": "为什么使用markdown",
-          "fileType": "markdown",
-          "filePath": "/docs8989/为什么使用markdown.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778403043329,
-          "createTime": 1778403043329
-        },
-        {
-          "fileName": "参考内容",
-          "fileType": "markdown",
-          "filePath": "/docs8989/参考内容.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778403043329,
-          "createTime": 1778403043329
-        },
-        {
-          "fileName": "参考资料",
-          "fileType": "markdown",
-          "filePath": "/docs8989/参考资料.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778403906662,
-          "createTime": 1778403043329
-        },
-        {
-          "fileName": "如何迁移",
-          "fileType": "markdown",
-          "filePath": "/docs8989/如何迁移.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778403919829,
-          "createTime": 1778403043329
-        },
-        {
-          "fileName": "快捷键参考",
-          "fileType": "markdown",
-          "filePath": "/docs8989/快捷键参考.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778403043329,
-          "createTime": 1778403043329
-        },
-        {
-          "fileName": "编写规范格式指引",
-          "fileType": "markdown",
-          "filePath": "/docs8989/编写规范格式指引.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778404778156,
-          "createTime": 1778403043329
-        }
-      ]
-    },
-    {
-      "fileName": "README",
-      "fileType": "markdown",
-      "filePath": "/README.md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1778383271737,
-      "createTime": "2024-01-01 12:00:00"
-    },
-    {
-      "fileName": "ROADMAP",
-      "fileType": "markdown",
-      "filePath": "/ROADMAP.md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1778383272445,
-      "createTime": "2024-01-01 12:00:00"
-    },
-    {
-      "fileName": "test",
-      "fileType": "folder",
-      "filePath": "/test",
-      "fileSuffix": "",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": "2025-09-14 13:59:00",
-      "createTime": "2025-09-14 13:59:00",
-      "children": [
-        {
-          "fileName": "列表测试",
-          "fileType": "markdown",
-          "filePath": "/test/列表测试.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1777125694059,
-          "createTime": "2025-09-14 13:59:00"
-        },
-        {
-          "fileName": "功能划分",
-          "fileType": "folder",
-          "filePath": "/test/功能划分",
-          "fileSuffix": "",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": "2025-09-14 13:59:00",
-          "createTime": "2025-09-14 13:59:00",
-          "children": [
-            {
-              "fileName": "markdown  基础功能",
-              "fileType": "markdown",
-              "filePath": "/test/功能划分/markdown  基础功能.md",
-              "fileSuffix": "md",
-              "fileSize": 2014,
-              "fileSizeReadable": "1.9k",
-              "lastModifyTime": 1777125422300,
-              "createTime": "2025-09-14 13:59:00"
-            },
-            {
-              "fileName": "markdown  额外功能",
-              "fileType": "markdown",
-              "filePath": "/test/功能划分/markdown  额外功能.md",
-              "fileSuffix": "md",
-              "fileSize": 2014,
-              "fileSizeReadable": "1.9k",
-              "lastModifyTime": 1777186194908,
-              "createTime": "2025-09-14 13:59:00"
-            }
-          ]
-        },
-        {
-          "fileName": "大文件场景",
-          "fileType": "markdown",
-          "filePath": "/test/大文件场景.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778251353709,
-          "createTime": 1776349048636
-        },
-        {
-          "fileName": "媒体内容",
-          "fileType": "markdown",
-          "filePath": "/test/媒体内容.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1776784670106,
-          "createTime": 1776784670106
-        },
-        {
-          "fileName": "长文本",
-          "fileType": "markdown",
-          "filePath": "/test/长文本.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1777125195659,
-          "createTime": 1776784670106
-        },
-        {
-          "fileName": "默认文本",
-          "fileType": "markdown",
-          "filePath": "/test/默认文本.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778335128982,
-          "createTime": 1776784670106
-        }
-      ]
+      "lastModifyTime": 1780842067474,
+      "createTime": 1780198293285
     },
     {
       "fileName": "TIMELINE",
@@ -329,8 +453,18 @@
       "fileSuffix": "md",
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1778383280119,
+      "lastModifyTime": 1780728007160,
       "createTime": 1776352566630
+    },
+    {
+      "fileName": "README",
+      "fileType": "markdown",
+      "filePath": "/README.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1780842068085,
+      "createTime": 1780233162722
     },
     {
       "fileName": "TODO",
@@ -339,8 +473,18 @@
       "fileSuffix": "md",
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1778383277175,
-      "createTime": 1776784670106
+      "lastModifyTime": 1780847202914,
+      "createTime": 1780233162722
+    },
+    {
+      "fileName": "ROADMAP",
+      "fileType": "markdown",
+      "filePath": "/ROADMAP.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1780808585402,
+      "createTime": 1780236374976
     }
   ],
   "fileType": "config",
