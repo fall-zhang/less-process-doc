@@ -1,3 +1,9 @@
+---
+title: 为什么使用 Markdown
+date: 2026-07-15
+sidebar_position: 1
+---
+
 ## 什么是 Markdown
 
 markdown 是轻量标记文本，使用简单的标记即可实现对文档的编辑

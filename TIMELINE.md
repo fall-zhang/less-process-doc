@@ -8,7 +8,7 @@
 ## Todo
 
 - [ ] markdown 相关内容
-  - [ ] 用户 ctrl + v 后，紧接着按 ctrl + z，告知用户，可以 ctrl + shift + v 粘贴纯文本
+  - [x] 用户 ctrl + v 后，紧接着按 ctrl + z，告知用户，可以 ctrl + shift + v 粘贴纯文本
   - [ ] markdown 缺少点击 link 可以在当前页面或者其他路由进行跳转的逻辑
   - [ ] 如果当前 markdown 解析失败，使用 text 文本方式打开 markdown 文件
   - [ ] 根据新闻类网站每行的字数，**控制每行字数**

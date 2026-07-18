@@ -4,11 +4,11 @@
 
 ### 更新应用安装包
 
-https://tauri.app/distribute/windows-installer/#minimum-webview2-version
+[https://tauri.app/distribute/windows-installer/#minimum-webview2-version](https://tauri.app/distribute/windows-installer/#minimum-webview2-version)
 配置
-https://tauri.app/zh-cn/reference/config/#minimumwebview2version
+[https://tauri.app/zh-cn/reference/config/#minimumwebview2version](https://tauri.app/zh-cn/reference/config/#minimumwebview2version)
 配置参考
-https://tauri.app/reference/config/#_top
+[https://tauri.app/reference/config/#_top](https://tauri.app/reference/config/#_top)
 
 ## 全局
 
