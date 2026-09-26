@@ -42,16 +42,6 @@
           "createTime": 1776784670106
         },
         {
-          "fileName": "长文本",
-          "fileType": "markdown",
-          "filePath": "/test/长文本.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1777125195659,
-          "createTime": 1776784670106
-        },
-        {
           "fileName": "默认文本",
           "fileType": "markdown",
           "filePath": "/test/默认文本.md",
@@ -62,26 +52,14 @@
           "createTime": 1776784670106
         },
         {
-          "fileName": "ability",
+          "fileName": "english",
           "fileType": "folder",
-          "filePath": "/test/ability",
+          "filePath": "/test/english",
           "fileSuffix": "",
           "fileSize": 2014,
           "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1780707017920,
-          "createTime": 1780707017920,
-          "children": [
-            {
-              "fileName": "base",
-              "fileType": "markdown",
-              "filePath": "/test/ability/base.md",
-              "fileSuffix": "md",
-              "fileSize": 2014,
-              "fileSizeReadable": "1.9k",
-              "lastModifyTime": 1780714364801,
-              "createTime": 1780714364801
-            }
-          ]
+          "lastModifyTime": 1786259648951,
+          "createTime": 1786259648951
         }
       ],
       "isFolderOpen": false
@@ -110,26 +88,6 @@
           "fileName": "参考内容",
           "fileType": "markdown",
           "filePath": "/docs/参考内容.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778598561985,
-          "createTime": 1778598561985
-        },
-        {
-          "fileName": "参考资料",
-          "fileType": "markdown",
-          "filePath": "/docs/参考资料.md",
-          "fileSuffix": "md",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": 1778998826166,
-          "createTime": 1778598561985
-        },
-        {
-          "fileName": "如何迁移",
-          "fileType": "markdown",
-          "filePath": "/docs/如何迁移.md",
           "fileSuffix": "md",
           "fileSize": 2014,
           "fileSizeReadable": "1.9k",
@@ -310,7 +268,7 @@
       "fileSuffix": "md",
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1780728007160,
+      "lastModifyTime": 1786259757279,
       "createTime": 1776352566630
     },
     {
@@ -344,26 +302,6 @@
       "createTime": 1780236374976
     },
     {
-      "fileName": "PRIVACY_MORE",
-      "fileType": "markdown",
-      "filePath": "/PRIVACY_MORE.md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1783521972969,
-      "createTime": 1783521972969
-    },
-    {
-      "fileName": "PRIVICY",
-      "fileType": "markdown",
-      "filePath": "/PRIVICY.md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": 1783521972969,
-      "createTime": 1783521972969
-    },
-    {
       "fileName": "test-todo",
       "fileType": "folder",
       "filePath": "/test-todo",
@@ -371,7 +309,39 @@
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
       "lastModifyTime": 1783521972969,
-      "createTime": 1783521972969
+      "createTime": 1783521972969,
+      "children": [
+        {
+          "fileName": "202020",
+          "fileType": "unknown",
+          "filePath": "/test-todo/202020.json",
+          "fileSuffix": "json",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": 1786259648951,
+          "createTime": 1786259648951
+        }
+      ]
+    },
+    {
+      "fileName": "about",
+      "fileType": "folder",
+      "filePath": "/about",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1786259648951,
+      "createTime": 1786259648951
+    },
+    {
+      "fileName": "dev-doc",
+      "fileType": "folder",
+      "filePath": "/dev-doc",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1786259648951,
+      "createTime": 1786259648951
     }
   ],
   "fileType": "config",
