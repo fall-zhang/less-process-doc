@@ -30,3 +30,4 @@ Recently revised in 12 Oct 2025
 
 - [ ] 实现 markdown 部分的数据同步
 
+当前数据量不多，存储内容不多，使用 sqlite 即可满足工作需要
